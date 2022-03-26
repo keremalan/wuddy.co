@@ -1,0 +1,121 @@
+:root {
+    --primaryColor: #08268D;
+}
+
+
+body {
+    margin: 0 240px;
+}
+
+
+header {
+    height: 80px;
+    justify-content: space-between;
+    margin: 30px 0;
+    align-items: center;
+}
+
+header > .brand > img {
+    width: 180px;
+}
+
+header > nav > ul > li > a{
+    margin: 0 40px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-action > button > a {
+    font-size: 1.2rem;
+    background-color: var(--primaryColor);
+    color: white;
+    padding: 16px 32px;
+    border-radius: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+main > h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--primaryColor);
+    width: 50%;
+    text-align: center;
+}
+
+main > p {
+    margin-top: 12px;
+    color: var(--primaryColor);
+    font-size: 0.9rem;
+    opacity: 0.8;
+    width: 40%;
+    text-align: center;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    margin-top: 72px;
+    color: var(--primaryColor);
+}
+
+.form-texts {
+    text-align: center;
+}
+
+.horizontal-line {
+    display: block;
+    height: 2px;
+    width: 39%;
+    opacity: 0.05;
+    background-color: var(--primaryColor);
+    margin-top: 72px;
+}
+
+.form-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.form-description {
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+
+*::placeholder {
+    color: var(--primaryColor);
+}
+
+label {
+    font-size: 1.2rem;
+    margin-top: 42px;
+}
+
+input[type="text"] {
+    border-radius: 6px;
+    border: 1px solid var(--primaryColor);
+    margin: 8px 0;
+    height: 40px;
+    padding: 12px;
+}
+
+input[type="submit"] {
+    margin-top: 12px;
+    height: 40px;
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
